@@ -1,0 +1,33 @@
+.email-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.email-det-subject {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.from-det {
+    display: flex;
+}
+
+.from-det span {
+    margin-left: auto;
+}
+
+.email-body-det {
+    padding: 10px 15px;
+    height: 100vh;
+    padding: 10px 15px;
+    
+}
+
+@media (max-width: 740px){
+    .email-details{
+     max-width:100%;
+    }
+  }
+  

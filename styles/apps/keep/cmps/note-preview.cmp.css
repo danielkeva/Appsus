@@ -1,0 +1,56 @@
+.note {
+    padding: 16px;
+    border: 1px solid black;
+    margin: 0 0 1.5em;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    text-align: start;
+    height: fit-content;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+}
+
+.note-item-actions {
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.note:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent, 0 2px 15px rgba(0, 0, 0, 0.30);
+}
+
+.note:hover .note-item-actions {
+    visibility: visible;
+}
+
+.img-container img{
+    width: 100%;
+}
+.video-container >*{
+    width: 100%;
+}
+.audio-container{
+    width: 100%;
+    outline: none;
+}
+
+.noteTodos{
+    list-style-type: none;
+    padding: 0;
+}
+
+.noteTodos .todo-list {
+    border-bottom: 1px solid rgb(160, 158, 161);
+}
+
+.mark {
+    border: 5px solid rgb(0, 123, 224);
+}
+
+
+@media screen and (max-width: 500px){
+    .note-item-actions {
+        visibility: visible;
+    }
+}

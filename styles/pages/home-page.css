@@ -1,0 +1,68 @@
+.home-page-container {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+.home-page-container {
+  color: #ffffff;
+}
+
+.home-page-link {
+  background-color: black;
+  margin: auto;
+  padding: 15px 20px;
+  font-size: 1.6rem;
+  opacity: 0.6;
+  font-weight: 900;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+.home-page-link:hover {
+  box-shadow: -1px 3px 13px 2px rgba(0, 0, 0, 0.55);
+  opacity: 1;
+}
+
+/* button router link  */
+.home-page-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.home-email {
+  background-image: url('../../img/mail.jpg');
+}
+
+.home-note {
+  background-image: url('../../img/note.jpg');
+}
+
+.home-books {
+  background-image: url('../../img/books.jpg');
+}
+
+.home-page-container p {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 1.123em;
+}
+.home-page-container h2 {
+  font-size: 2.4em;
+  letter-spacing: .1em;
+}
+
+.home-note p,
+.home-books p {
+  margin-bottom: 50px;
+}

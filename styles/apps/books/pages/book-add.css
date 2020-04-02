@@ -1,0 +1,11 @@
+.add-book-container input[type="text"] {
+    padding: 5px;
+    font-size: 1rem;
+    outline: none;
+    margin-bottom: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+.add-book-container form{
+    text-align: center;
+}

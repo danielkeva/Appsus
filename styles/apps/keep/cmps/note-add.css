@@ -1,0 +1,75 @@
+.note-add {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    padding: 10px 0;
+    width: 600px;
+    margin: 0 auto 2em;
+    max-width: 100%;
+}
+
+.add-button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.add-button-container>input {
+    display: none;
+}
+
+.add-button-container label:checked {
+    background-color: blue;
+}
+
+.add-input {
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-input>*:not(:last-child) {
+    width: 100%;
+    padding: 9px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.add-btn {
+    opacity: 0.4;
+}
+
+.add-btn:hover {
+    opacity: 1;
+    color: rgb(56, 56, 255);
+}
+
+.add-btn:checked {
+    opacity: 1;
+}
+
+input[type="radio"]:checked+.add-btn {
+    opacity: 1;
+}
+
+.icon-clicked {
+    color: black;
+}
+
+.add-input button {
+    background-color: rgb(56, 56, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.add-input button:hover {
+    opacity: 1;
+}
+

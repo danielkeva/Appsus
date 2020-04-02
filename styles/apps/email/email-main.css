@@ -1,0 +1,33 @@
+@import 'cmps/email-preview.css';
+@import 'cmps/email-sidebar.css';
+@import 'cmps/email-list.css';
+@import 'cmps/email-filter.css';
+@import 'pages/email-details.css';
+@import 'pages/email-compose.css';
+
+.email-main {
+  font-family: roboto reg;
+  display: grid;
+  grid-template-columns: 3fr  10fr;
+  margin-top:1em;
+}
+
+/* layout */
+
+.email-sidebar {
+    /* grid-row:1/-1; */
+    grid-column:1/2 ;
+}
+
+.email-inbox{
+    /* grid-row:2/-1; */
+    grid-column: 2/-1;
+}
+
+
+@media (max-width: 740px){
+  .email-main{
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+.book-main-header {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  align-items: center;
+}
+.book-main-header>*{
+  text-decoration: none;
+}
+
+.book-nav {
+  display: flex;
+}
+
+.book-nav>* {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.book-nav>* {
+  color: black;
+}
+
+.book-nav>*:hover {
+  color: rgb(56, 56, 255);;
+}

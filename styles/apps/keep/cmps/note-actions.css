@@ -1,0 +1,52 @@
+.note-actions-container{
+    display: flex;
+    flex-direction: column;  
+}
+
+.note-item-actions{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.action{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.action:hover{
+    opacity: 1;
+}
+
+.color-dropdown{
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    left: 35px;
+}
+
+
+.color-dropdown>*{
+    padding: 0em;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+
+.color-picker:hover .color-dropdown{
+    visibility: visible;
+}
+
+.note-edit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.note-edit input{
+    width: 100%;
+}

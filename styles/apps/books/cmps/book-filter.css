@@ -1,0 +1,15 @@
+
+.book-filter .filter-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.book-filter input[type="text"]{
+  padding: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+

@@ -1,0 +1,15 @@
+.filter-inputs{
+    display: flex; 
+}
+.title-search{
+    width: 30%;
+}
+.filter-options{
+    width: 20%;
+}
+
+@media screen and (max-width: 500px){
+    .filter-inputs>*{
+        width: 100%;
+    }
+}

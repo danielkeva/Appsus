@@ -1,0 +1,11 @@
+.book-preview {
+  text-align: center;
+}
+.saleImg {
+  width: 50px;
+}
+.book-img {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+}
